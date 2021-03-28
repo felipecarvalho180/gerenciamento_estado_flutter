@@ -31,6 +31,7 @@ dependencies:
   bloc: ^7.0.0
   mobx: 2.0.0-nullsafety.5
   flutter_mobx: 2.0.0-nullsafety.3
+  rx_notifier: ^1.0.0
 
 dev_dependencies:
   flutter_test:
