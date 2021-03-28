@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gerencia_estado/src/bloc/bloc_page.dart';
-import 'package:gerencia_estado/src/redux/app_store.dart';
+import 'package:gerencia_estado/src/mobx/mobx_page.dart';
 import 'package:gerencia_estado/src/redux/redux_page.dart';
 
 void main() {
@@ -15,10 +15,11 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      initialRoute: '/bloc',
+      initialRoute: '/mobx',
       routes: {
         '/redux': (context) => ReduxPage(),
-        '/bloc': (context) => BlocPage()
+        '/bloc': (context) => BlocPage(),
+        '/mobx': (context) => MobxPage()
       },
     );
   }

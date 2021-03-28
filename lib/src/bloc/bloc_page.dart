@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:gerencia_estado/src/bloc/app_bloc.dart';
-import 'package:gerencia_estado/src/redux/app_store.dart';
 
 class BlocPage extends StatefulWidget {
   @override
